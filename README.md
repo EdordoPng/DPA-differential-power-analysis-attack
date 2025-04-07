@@ -1,7 +1,4 @@
-# differential-power-analysis-attack
-Example of the workflow of a side channel attack like DPA
-
-# Differential Power Analysis (DPA) Project
+# Differential Power Analysis (DPA)
 
 This project demonstrates the implementation and analysis of **Differential Power Analysis (DPA)** side-channel attacks on AES. It is based on a demo script using a **Hamming Weight leakage model** and **correlation** as a distinguisher.
 
@@ -9,7 +6,6 @@ This project demonstrates the implementation and analysis of **Differential Powe
 
 The main objective is to explore various DPA attack strategies by extending and modifying the provided script to answer three key questions:
 
----
 
 ### 1. Attack at Bit-Level Instead of Byte-Level
 
@@ -24,7 +20,6 @@ The main objective is to explore various DPA attack strategies by extending and 
 
 📌 **Result:** Both methods work well, but DoM is significantly faster (30 min vs 4 hours), although it requires more traces for high accuracy.
 
----
 
 ### 2. Attack on SubBytes Input (i.e., AddRoundKey Output)
 
@@ -33,7 +28,6 @@ The main objective is to explore various DPA attack strategies by extending and 
 
 📌 **Result:** Only 4 out of 16 key bytes are correctly recovered. This confirms that attacking **non-linear** operations (like SubBytes) is more effective.
 
----
 
 ### 3. How Many Traces Are Needed to Recover the Key?
 
@@ -71,8 +65,6 @@ Experiments are run using different numbers of power traces.
 - `calculate_t_statistic(...)`: computes t-statistic for DoM
 - Output includes graphical plots of attack results
 
----
 
-## Author
 
 
