@@ -53,7 +53,8 @@ Experiments are run using different numbers of power traces.
 
 - Python 3.x
 - NumPy, Matplotlib
-- Provided power trace dataset (not included due to licensing/privacy)
+- Power trace dataset .trs file (not included due to licensing/privacy) 
+- The transactionReader.py file (not included due to licensing/privacy)
 
 ---
 
